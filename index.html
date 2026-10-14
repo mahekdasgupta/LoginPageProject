@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="login-card">
+    <div class="logo" aria-label="Login project logo">LP</div>
+    <h1>Sign in to Your Account</h1>
+    <p class="subtitle">Please sign in to continue</p>
+    <form id="loginForm">
+      <label for="email">Email address</label>
+      <input id="email" name="email" type="email" placeholder="you@example.com" required>
+      <label for="password">Password</label>
+      <input id="password" name="password" type="password" placeholder="Enter your password" required minlength="6">
+      <button type="submit">Log In</button>
+      <p id="message" role="status" aria-live="polite"></p>
+    </form>
+    <p class="footer">Demo project · Do not enter real credentials</p>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
