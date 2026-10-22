@@ -6,7 +6,7 @@ h1 { margin: 0 0 8px; text-align: center; font-size: 28px; }
 label { display: block; margin: 16px 0 7px; font-size: 14px; font-weight: 700; }
 input { width: 100%; padding: 12px; border: 1px solid #cbd3e1; border-radius: 8px; font-size: 15px; }
 input:focus { outline: 2px solid #9dbbff; border-color: #3269df; }
-button { width: 100%; margin-top: 22px; padding: 13px; border: 0; border-radius: 8px; color: white; background: #245bd6; font-size: 16px; font-weight: 700; cursor: pointer; }
+button { width: 100%; margin-top: 22px; padding: 13px; border: 0; border-radius: 8px; color: white; background: #de1916; font-size: 16px; font-weight: 700; cursor: pointer; }
 button:hover { background: #1748b5; }
 #message { min-height: 18px; font-size: 13px; text-align: center; color: #245bd6; }
 .footer { margin: 18px 0 0; color: #7b8496; font-size: 11px; text-align: center; }
